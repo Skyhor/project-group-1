@@ -1,2 +1,19 @@
 @import './common';
 @import './example';
+
+@import'./components/button';
+
+@import './layout/about';
+@import './layout/advantages';
+@import './layout/contacts';
+@import './layout/footer';
+@import './layout/gallery';
+
+
+@import './base/container';
+@import './base/section';
+@import './base/base';
+
+
+@import './utils/varieables';
+@import './utils/visually-hidden';

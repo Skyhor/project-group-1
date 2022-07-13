@@ -1,0 +1,43 @@
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section__label{
+    font-family: 'Titan One';
+    font-size: 18px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFA5BA;
+    margin-bottom: 15px;
+}
+.section__title {
+    font-family: 'Titan One';
+    font-size: 34px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #D41443;
+}
+@media screen and (min-width:768px){
+    .section__label{
+        font-size: 26px;
+        line-height: 1.15px;
+        margin-bottom: 16px;
+    }
+    .section__title{
+        font-size: 48px;
+    }
+}
+@media screen and (min-width:1200px){
+    .section__label{
+        font-size: 30px;
+        line-height: 1.13;
+    }
+    .section__title{
+        font-size: 58px;
+        line-height: 1.14;
+    }
+}
