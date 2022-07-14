@@ -25,13 +25,85 @@
   background-position: center;
 }
 
+.crawlers__item {
+  display: block;
+  padding: 40px 32px;
+}
+
+.crawlers__item {
+  background: #ffffff;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+}
+
 .crawlers__agency {
+  display: inline-block;
+  text-align: center;
+  width: 80px;
   font-family: var(--secondary-font-family);
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 186%;
   color: #ffffff;
+  background: var(--fifth-accent-color);
+  border-radius: 4px;
+}
+
+.crawlers__agency-another-background {
+  width: 130px;
+  background: var(--sixth-accent-color);
+}
+
+.crawlers__city {
+  font-family: var(--secondary-font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  letter-spacing: 0.04em;
+}
+
+.crawlers__text {
+  font-family: var(--secondary-font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #907e82;
+}
+.crawlers__text::after {
+  content: "";
+  display: block;
+  width: 216px;
+  border: 1px solid #e1e1e1;
+}
+
+.crawlers__timetable::after {
+  content: "";
+  display: block;
+  width: 216px;
+  border: 1px solid #e1e1e1;
+}
+
+.timetable__day {
+  font-family: var(--secondary-font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+}
+
+.timetable__time {
+  font-family: var(--secondary-font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  color: var(--third-accent-color);
+}
+
+.contacts__link {
+  font-family: var(--secondary-font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #907e82;
 }
 
 .galery {
