@@ -25,6 +25,15 @@
   background-position: center;
 }
 
+.crawlers__agency {
+  font-family: var(--secondary-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  color: #ffffff;
+}
+
 .galery {
   background-image: linear-gradient(to bottom, #FFF5F6, white);
 }
