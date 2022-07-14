@@ -3,15 +3,45 @@
     <picture>
         <source
         type="images/webp"
-        media="(min-width: 1200px)"
-        srcset="../images/galery/galery-desktop.webp 1x"
-        
+        media="(min-width: 768px)"
+        srcset="./images/galery/galery-desktop.webp 1x,
+        ./images/galery/galery-desktop@2x.webp 2x"
         >
 
+        <source 
+        media="(min-width: 1200px)"
+        srcset="./images/galery/galery-desktop.jpg 1x,
+        ./images/galery/galery-desktop@2x.jpg 2x">
+
+        <source
+        type="images/webp"
+        media="(min-width: 768px)"
+        srcset="./images/galery/galery-tablet.webp 1x,
+        ./images/galery/galery-tablet@2x.webp 2x"
+        >
+
+        <source 
+        media="(min-width: 768px)"
+        srcset="./images/galery/galery-tablet.jpg 1x,
+        ./images/galery/galery-tablet@2x.jpg 2x">
+
+        <source
+        type="images/webp"
+        media="(max-width: 767px)"
+        srcset="./images/galery/galery-mobile.webp 1x,
+        ./images/galery/galery-mobile@2x.webp 2x"
+        >
+
+        <source 
+        media="(max-width: 767px)"
+        srcset="./images/galery/galery-mobile.jpg 1x,
+        ./images/galery/galery-mobile@2x.jpg 2x">
 
 
-    <img src="../images/galery/galery-mobile.jpg" alt="gallery products">
+    <img src="./images/galery/galery-mobile.jpg" alt="gallery products">
     </picture>
+    
+   
     <div>
     <p>Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
     </p>
