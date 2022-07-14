@@ -1,3 +1,8 @@
-.galery{
+.galery__section{
     background-image: linear-gradient(to bottom,  #FFF5F6, #ffff);
+}
+
+.galery{
+    display: flex;
+    justify-content: center;
 }
