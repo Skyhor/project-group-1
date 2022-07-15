@@ -1,0 +1,107 @@
+.section__advantages {
+    background-color: var(--secondary-accent-color);
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.advantages__item:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.advantages__title {
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    height: 56px;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #D41443;
+    margin-bottom: 4px;
+}
+
+.advantages__description {
+    font-family: 'DM Sans';
+    font-style: normal;
+    max-width: 238px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 170%;
+    color: #000000;
+}
+
+.advantages__icon {
+    display: block;
+    margin-bottom: 16px;
+
+    &-1 {
+        content: url('../images/advantages/icon-1.png');
+    }
+
+    &-2 {
+        content: url('../images/advantages/icon-2.png');
+    }
+
+    &-3 {
+        content: url('../images/advantages/icon-3.png');
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .advantages__title {
+        font-size: 48px;
+        line-height: 55px;
+        margin-bottom: 14px;
+        text-transform: none;
+    }
+
+    .advantages__description {
+        font-size: 14px;
+        line-height: 174%;
+    }
+
+    .advantages {
+        display: flex;
+    }
+
+    .advantages__icon {
+        margin-bottom: 36px;
+    }
+
+    .advantages__item:not(:last-child) {
+        margin-right: 22px;
+        margin-bottom: 0;
+    }
+
+    .advantages__description {
+        max-width: 160px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .advantages {
+        justify-content: space-between;
+    }
+
+    .advantages__title {
+        font-size: 58px;
+        line-height: 66px;
+        margin-bottom: 16px;
+    }
+
+    .advantages__description {
+        font-size: 16px;
+        line-height: 176%;
+        letter-spacing: 0.02em;
+    }
+
+    .advantages__description {
+        max-width: 268px;
+    }
+
+    .advantages__icon {
+        margin-bottom: 40px;
+    }
+}
