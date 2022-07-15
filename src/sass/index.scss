@@ -1,12 +1,15 @@
 @import './common';
 @import './example';
 
+@import'./components/button';
+
 @import './base/container';
 @import './base/section';
 @import './base/base';
 
 @import './layout/header';
 @import './layout/hero';
+@import './layout/products';
 @import './layout/about';
 @import './layout/advantages';
 @import './layout/gallery';

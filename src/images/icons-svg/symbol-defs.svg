@@ -26,6 +26,9 @@
 <path d="M0 5.333v-5.333h48v5.333h-48zM0 18.667h48v-5.333h-48v5.333zM0 32h48v-5.333h-48v5.333z"></path>
 </symbol>
 <symbol id="icon-btn" viewBox="0 0 26 32">
+<path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M5.172 3.2l14.169 12.8-14.169 12.8"></path>
+<symbol id="icon-arrow-right" viewBox="0 0 32 32">
+<path d="M16.8 14c0.88 1.040 0.56 1.2-1.92 1.2-1.6 0-2.88 0.32-2.88 0.8 0 0.4 1.28 0.8 2.88 0.8 2.48 0 2.8 0.16 1.92 1.2-1.52 1.84 0.32 1.44 2-0.4 1.36-1.52 1.36-1.68 0-3.2-1.68-1.84-3.52-2.24-2-0.4z"></path>
 <path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M3.542 3.2l16.825 12.8-16.825 12.8"></path>
 </symbol>
 <symbol id="close" viewBox="0 0 32 32">
@@ -33,6 +36,9 @@
 </symbol>
 <symbol id="icon-Vector-1" viewBox="0 0 22 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M4.488 3.2l13.7 12.8-13.7 12.8"></path>
+</symbol>
+<symbol id="icon-arrow-products" viewBox="0 0 32 32">
+<path d="M16.8 14c0.88 1.040 0.56 1.2-1.92 1.2-1.6 0-2.88 0.32-2.88 0.8 0 0.4 1.28 0.8 2.88 0.8 2.48 0 2.8 0.16 1.92 1.2-1.52 1.84 0.32 1.44 2-0.4 1.36-1.52 1.36-1.68 0-3.2-1.68-1.84-3.52-2.24-2-0.4z"></path>
 </symbol>
 </defs>
 </svg>
