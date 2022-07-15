@@ -2,7 +2,7 @@
   background-color: #fff5f6;
   
   }
-  .about-container{
+  .about__container{
     background-size: 100%;
     background-position: left;
     background-repeat: no-repeat;
@@ -10,33 +10,26 @@
           background-image: url('../images/about/background-milk-mob.png');
           
      }
-  /* @media screen and (min-width: 768px) and (max-width: 1199px) {
-         background-image: url('../images/about/background-milk-desk.png');
-        
-      }
- */
+ 
   @media screen and (min-width: 1200px) {
           background-image: url('../images/about/background-milk-desk@2x.png');
-       
+       .about__list{
+        width: 463px;
+        margin-right: 121px;
+       }
       }
   }
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .about-container {
+  .about__container {
     background-image: url('../images/about/background-milk-mob@2x.png');
     
   }
 
- /*  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    .about-container {
-      background-image: url('../images/about/background-milk-desk@2x.png');
-        
-    }
-  } */
 
   @media screen and (min-width: 1200px) {
-    .about-container {
+    .about__container {
       background-image: url('../images/about/background-milk-desk@2x.png');
        
     }
@@ -44,7 +37,7 @@
 
   
 }
-.about-flex{
+.about__flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,12 +49,13 @@
      
 }
 
-.about-list {
+.about__list {
+  width: 334px;
 }
-.about-list-item:not(:last-child) {
+.about__item:not(:last-child) {
   margin-bottom: 40px;
 }
-.about-button {
+.about__button {
   margin-top: -20px;
   width: 176px;
   height: 44px;
