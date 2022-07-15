@@ -31,5 +31,8 @@
 <symbol id="close" viewBox="0 0 32 32">
 <path d="M31.439 3.166l-3.166-3.166-12.553 12.553-12.553-12.553-3.166 3.166 12.553 12.553-12.553 12.553 3.166 3.166 12.553-12.553 12.553 12.553 3.166-3.166-12.553-12.553 12.553-12.553z"></path>
 </symbol>
+<symbol id="icon-Vector-1" viewBox="0 0 22 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M4.488 3.2l13.7 12.8-13.7 12.8"></path>
+</symbol>
 </defs>
 </svg>
