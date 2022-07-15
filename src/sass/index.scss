@@ -1,8 +1,8 @@
 @import './common';
 @import './example';
 
-@import'./components/button';
-
+@import './layout/header';
+@import './layout/hero';
 @import './layout/about';
 @import './layout/advantages';
 @import './layout/contacts';
@@ -17,3 +17,5 @@
 
 @import './utils/varieables';
 @import './utils/visually-hidden';
+
+@import './components/mobile-modal';
