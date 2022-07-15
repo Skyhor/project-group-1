@@ -1,0 +1,72 @@
+.about {
+  background-color: #fff5f6;
+  
+  }
+  .about__container{
+    background-size: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    @media screen and  (max-width: 767px) {
+          background-image: url('../images/about/background-milk-mob.png');
+          
+     }
+ 
+  @media screen and (min-width: 1200px) {
+          background-image: url('../images/about/background-milk-desk@2x.png');
+       .about__list{
+        width: 463px;
+        margin-right: 121px;
+       }
+      }
+  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .about__container {
+    background-image: url('../images/about/background-milk-mob@2x.png');
+    
+  }
+
+  @media screen and (min-width: 1200px) {
+    .about__container {
+      background-image: url('../images/about/background-milk-desk@2x.png');
+       
+    }
+  }
+
+  
+}
+.about__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+     @media screen and  (max-width: 767px) {
+       display: inline; 
+          
+     }
+     
+}
+
+.about__list {
+  width: 334px;
+}
+.about__item:not(:last-child) {
+  margin-bottom: 40px;
+}
+.about__button {
+  margin-top: -20px;
+  width: 176px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 22px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  border-color: transparent;
+  cursor: pointer;
+
+  color: #d41443;
+}
