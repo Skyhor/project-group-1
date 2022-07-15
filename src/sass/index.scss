@@ -1,22 +1,24 @@
 @import './common';
 @import './example';
 
+@import './base/container';
+@import './base/section';
+@import './base/base';
+
+@import './layout/header';
+@import './layout/hero';
 @import './layout/about';
 @import './layout/advantages';
+@import './layout/gallery';
 @import './layout/contacts';
 @import './layout/footer';
+
 @import './layout/gallery';
 @import './layout/customer-rewievs';
+
 
 
 @import './utils/varieables';
 @import './utils/visually-hidden';
 
 @import './components/mobile-modal';
-
-@import './layout/header';
-@import './layout/hero';
-
-@import './base/container';
-@import './base/section';
-@import './base/base';
