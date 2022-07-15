@@ -130,7 +130,25 @@
     border-radius: 50%;
     cursor: pointer;
     border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.products__btn-cream:hover,
+.products__btn-cream:focus{
+    background-color: var(--sixth-accent-color);
+}
+
+.products__btn-cofee:hover,
+.products__btn-cofee:focus {
+    background-color: var(--accent-color);
+}
+
+.products__btn-milkshakes:hover,
+.products__btn-milkshakes:focus {
+    background-color: var(--fifth-accent-color);
+}
+
+
 
 .modal__clous-icon{
     position: absolute;
@@ -219,5 +237,93 @@
                 background-image: url(../images/products/choco-tablet@2x.png)
             }
         }
+    }
+
+    .products__text {
+        line-height: 1.76;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .products__list{
+        margin-left: -32px;
+        margin-top: -32px;
+    }
+
+    .products__item {
+        flex-basis: calc((100% - 96px) / 3);
+        margin-left: 32px;
+        margin-top: 32px;
+    }
+
+    .proructs__wraper {
+        width: 368px;
+
+        margin-top: 261px;
+        padding-left: 61px;
+        padding-top: 165px;
+        padding-right: 61px;
+        padding-bottom: 60px;
+    }
+
+    .proructs__wraper-ice-cream {
+        &::before {
+            top: -261;
+            width: 368px;
+            height: 394px;
+            background-image: url(../images/products/pink-desk.png);
+        }
+
+        @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+        screen and (min-width: 1200px) and (min-resolution: 192dpi),
+        screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+            &::before {
+                background-image: url(../images/products/pink-desk@2x.png)
+            }
+        }
+    }
+
+    .proructs__wraper-ice-coffee {
+        &::before {
+            top: -261;
+            width: 368px;
+            height: 394px;
+            background-image: url(../images/products/shake-desk.png);
+        }
+
+        @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+        screen and (min-width: 1200px) and (min-resolution: 192dpi),
+        screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+            &::before {
+                background-image: url(../images/products/shake-desk@2x.png)
+            }
+        }
+    }
+
+    .proructs__wraper-milkshakes {
+        &::before {
+            top: -261;
+            width: 368px;
+            height: 394px;
+            background-image: url(../images/products/choco-desk.png);
+        }
+
+        @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+        screen and (min-width: 1200px) and (min-resolution: 192dpi),
+        screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+            &::before {
+                background-image: url(../images/products/choco-desk@2x.png)
+            }
+        }
+    }
+
+    .products__title{
+        font-size: 30px;
+        line-height: 1.13;
+    }
+
+    .products__text{
+        font-size: 16px;
+        margin-bottom: 60px;
     }
 }
