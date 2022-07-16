@@ -1,6 +1,32 @@
+#more{display: none;}
 .about {
-  background-color: #fff5f6;
+  background-color: var(--secondary-accent-color);
   
+  }
+  .text-more{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 176%;
+color: #000000;
+  }
+  .about__text{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 176%;
+color: #000000;
+  }
+  .about__text-grey{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 176%;
+letter-spacing: 0.04em;
+color: #907E82;
   }
   .about__container{
     background-size: 100%;
@@ -8,7 +34,10 @@
     background-repeat: no-repeat;
     @media screen and  (max-width: 767px) {
           background-image: url('../images/about/background-milk-mob.png');
-          
+         .about__list{
+        width: 100%;
+        
+       } 
      }
  
   @media screen and (min-width: 1200px) {
@@ -55,18 +84,19 @@
   margin-bottom: 40px;
 }
 .about__button {
-  margin-top: -20px;
-  width: 176px;
-  height: 44px;
-  background: #ffffff;
-  border-radius: 22px;
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 21px;
-  border-color: transparent;
-  cursor: pointer;
-
-  color: #d41443;
+ width: 160px;
+    height: 44px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--main-accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+    color: var(--fourth-accent-color);
+    fill: var(--fourth-accent-color);
 }
