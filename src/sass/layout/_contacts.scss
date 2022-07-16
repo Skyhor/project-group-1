@@ -27,7 +27,7 @@
 .crawlers__item {
   display: block;
   padding: 40px 32px;
-  background: #ffffff;
+  background: var(--main-accent-color);
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
 }
@@ -41,7 +41,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 186%;
-  color: #ffffff;
+  color: var(--main-accent-color);
   background: var(--fifth-accent-color);
   border-radius: 6px;
 }
@@ -134,7 +134,7 @@
 
 .crawlers__modal-btn_background-red {
   background: #d41342;
-  color: #ffffff;
+  color: var(--main-accent-color);
   padding-left: 17px;
   padding-right: 17px;
 
@@ -145,7 +145,7 @@
 }
 
 .crawlers__modal-btn_background-white {
-  background: #ffffff;
+  background: var(--main-accent-color);
   color: var(--fourth-accent-color);
   padding-left: 32px;
   padding-right: 32px;
@@ -210,7 +210,7 @@
   .section__crawlers {
     background-image: linear-gradient(
       to bottom,
-      #ffffff 49%,
+      var(--main-accent-color) 49%,
       var(--secondary-accent-color) 49%,
       var(--secondary-accent-color) 100%
     );
@@ -274,7 +274,7 @@
   .section__crawlers {
     background-image: linear-gradient(
       to bottom,
-      #ffffff 23%,
+      var(--main-accent-color) 23%,
       var(--secondary-accent-color) 23%,
       var(--secondary-accent-color) 100%
     );
