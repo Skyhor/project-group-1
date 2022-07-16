@@ -35,16 +35,19 @@
     display: block;
     margin-bottom: 16px;
 
-    &-1 {
+    &-1::before {
         content: url('../images/advantages/icon-1.png');
+        display: block;
     }
 
-    &-2 {
+    &-2::before {
         content: url('../images/advantages/icon-2.png');
+        display: block;
     }
 
-    &-3 {
+    &-3::before {
         content: url('../images/advantages/icon-3.png');
+        display: block;
     }
 }
 
@@ -81,6 +84,10 @@
 }
 
 @media screen and (min-width:1200px) {
+    .section__advantages {
+        padding-bottom: 60px;
+    }
+
     .advantages {
         justify-content: space-between;
     }
