@@ -1,9 +1,8 @@
-.social{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
+.social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
-
 .social__link{
     display: flex;
     align-items: center;
@@ -59,9 +58,6 @@
 .social__icon{
     fill: white;
 }
-.social__item:not(:last-child){
-    margin-right: 28px;
-}
 .rights-text{
     text-align: center;
     font-family: var(--secondary-font-family);
@@ -78,6 +74,9 @@
     border-top-style: solid;
     border-top-color: #E1E1E1;
 }
+.social__item:not(:last-child) {
+    margin-right: 28px;
+    }
 
 @media screen and (max-width:767.98){
     .text-block{
