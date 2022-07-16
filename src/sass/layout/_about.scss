@@ -1,80 +1,78 @@
-#more{display: none;}
+#more {
+  display: none;
+  
+}
 .about {
   background-color: var(--secondary-accent-color);
+}
+.text-more {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 176%;
+  color: #000000;
+
   
+}
+
+.about__text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 176%;
+  color: #000000;
+}
+.about__text-grey {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 176%;
+  letter-spacing: 0.04em;
+  color: #907e82;
+}
+.about__container {
+  background-size: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  @media screen and (max-width: 767px) {
+    background-image: url('../images/about/background-milk-mob.png');
+    .about__list {
+      width: 100%;
+    }
   }
-  .text-more{
-    font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 176%;
-color: #000000;
-  }
-  .about__text{
-    font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 176%;
-color: #000000;
-  }
-  .about__text-grey{
-    font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 176%;
-letter-spacing: 0.04em;
-color: #907E82;
-  }
-  .about__container{
-    background-size: 100%;
-    background-position: left;
-    background-repeat: no-repeat;
-    @media screen and  (max-width: 767px) {
-          background-image: url('../images/about/background-milk-mob.png');
-         .about__list{
-        width: 100%;
-        
-       } 
-     }
- 
+
   @media screen and (min-width: 1200px) {
-          background-image: url('../images/about/background-milk-desk@2x.png');
-       .about__list{
-        width: 463px;
-        margin-right: 121px;
-       }
-      }
+    background-image: url('../images/about/background-milk-desk@2x.png');
+    .about__list {
+      width: 463px;
+      margin-right: 121px;
+    }
   }
-  @media (min-device-pixel-ratio: 2),
+}
+@media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .about__container {
     background-image: url('../images/about/background-milk-mob@2x.png');
-    
   }
 
   @media screen and (min-width: 1200px) {
     .about__container {
       background-image: url('../images/about/background-milk-desk@2x.png');
-       
     }
   }
-
-  
 }
-.about__flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.about__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-     @media screen and  (max-width: 767px) {
-       display: inline; 
-          
-     }
-     
+  @media screen and (max-width: 767px) {
+    display: inline;
+  }
 }
 
 .about__list {
@@ -84,19 +82,19 @@ color: #907E82;
   margin-bottom: 40px;
 }
 .about__button {
- width: 160px;
-    height: 44px;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 22px;
-    border: none;
-    cursor: pointer;
-    background-color: var(--main-accent-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.31;
-    color: var(--fourth-accent-color);
-    fill: var(--fourth-accent-color);
+  width: 160px;
+  height: 44px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px;
+  border: none;
+  cursor: pointer;
+  background-color: var(--main-accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  color: var(--fourth-accent-color);
+  fill: var(--fourth-accent-color);
 }
