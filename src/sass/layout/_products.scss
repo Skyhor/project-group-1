@@ -108,7 +108,7 @@
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--main-accent-color);
 
     &::after{
         content: '';
@@ -126,7 +126,7 @@
     line-height: 1.52;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--main-accent-color);
     margin-bottom: 32px;
 }
 
