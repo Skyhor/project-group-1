@@ -1,0 +1,373 @@
+.hero {
+  height: 500px;
+  background-color: var(--accent-color);
+}
+
+.hero__container {
+  padding-top: 194px;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/hero/background/icecream-mob.png), url(../images/hero/background/bellipse-mob.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 92px right 32px, top 83px left 36px;
+  background-size: 171px, 345px;
+
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+
+  .hero__container {
+    background-image: url(../images/hero/background/icecream-mob@2x.png), url(../images/hero/background/bellipse-mob@2x.png);
+  }
+}
+
+.hero__title {
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.15;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 20px;
+
+  &-accent {
+    font-size: 48px;
+    line-height: 0.95;
+    color: var(--fourth-accent-color);
+  }
+}
+
+.hero__info {
+  display: flex;
+  gap: 8px;
+}
+
+.hero__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-color: #fff;
+  font-family: var(--secondary-font-family);
+  font-size: 8px;
+  line-height: 1.25;
+  color: var(--fourth-accent-color);
+  border-radius: 20px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus,
+  &:hover {
+    background-color: var(--fourth-accent-color);
+    color: #fff;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .hero__container {
+    width: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .hero__supinfo {
+    display: none;
+  }
+
+  .hero__details {
+    display: none;
+  }
+
+  .hero__img {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 416px;
+
+  }
+
+  .hero__container {
+    padding-top: 102px;
+    background-image: url(../images/hero/background/icecream-tab.png), url(../images/hero/background/bellipse-tab.png);
+    background-position: top 80px right 303px, top 43px right 185px;
+    background-size: 143px, 335px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+
+    .hero__container {
+      background-image: url(../images/hero/background/icecream-tab@2x.png), url(../images/hero/background/bellipse-tab@2x.png);
+    }
+  }
+
+  .hero__container {
+    width: 786px;
+    position: relative;
+  }
+
+  .hero__title {
+    font-size: 22px;
+    line-height: 1.14;
+
+    &-accent {
+      font-size: 34px;
+      line-height: 1.13;
+    }
+  }
+
+  .hero__details {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .hero__details-img {
+    width: 152px;
+  }
+
+  .hero__details-text {
+    font-family: var(--secondary-font-family);
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin-bottom: 7px;
+
+  }
+
+  .hero__details-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #fff;
+    fill: var(--fourth-accent-color);
+    border-style: none;
+    cursor: pointer;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+      background-color: var(--fourth-accent-color);
+      fill: #fff;
+    }
+  }
+
+  .hero__details-box {
+    width: 114px;
+  }
+
+  .hero__img {
+    position: absolute;
+    width: 190px;
+    right: 32px;
+    bottom: 0;
+  }
+
+  .hero__supinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: right;
+    position: absolute;
+    right: 32px;
+    top: 92px;
+  }
+
+  .hero__supinfo-first-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    width: 43px;
+    height: 44px;
+    padding-top: 4px;
+    padding-right: 10px;
+    margin-bottom: 16px;
+    background-image: url(../images/hero/ellipse-tab.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 16px;
+
+  }
+
+  .hero__supinfo-second-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    width: 51px;
+    height: 43px;
+    padding-top: 3px;
+    padding-right: 3px;
+    background-image: url(../images/hero/ellipse-tab.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 16px;
+  }
+
+  .hero__supinfo-amount {
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--fourth-accent-color);
+    margin-bottom: 2px;
+  }
+
+  .hero__supinfo-type {
+    font-family: var(--secondary-font-family);
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.25;
+    letter-spacing: 0.04em;
+    color: #fff;
+
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+
+    .hero__supinfo-first-box,
+    .hero__supinfo-second-box {
+      background-image: url(../images/hero/ellipse-tab@2x.png);
+    }
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  .hero {
+    height: 664px;
+
+  }
+
+  .hero__container {
+    width: 1200px;
+    position: relative;
+    padding-top: 147px;
+    background-image: url(../images/hero/background/icecream-desk.png), url(../images/hero/background/bellipse-desk.png);
+    background-position: top 108px right 328px, top 54px right 149px;
+    background-size: 236px, 534px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+
+    .hero__container {
+      background-image: url(../images/hero/background/icecream-desk@2x.png), url(../images/hero/background/bellipse-desk@2x.png);
+    }
+  }
+
+  .hero__title {
+    font-size: 38px;
+    line-height: 1.13;
+
+    &-accent {
+      font-size: 58px;
+      line-height: 0.9;
+    }
+  }
+
+  .hero__link {
+    height: 40px;
+    font-size: 14px;
+    line-height: 1.28;
+  }
+
+  .hero__details {
+    margin-top: 40px;
+    align-items: flex-end;
+  }
+
+  .hero__details-img {
+    width: 216px;
+  }
+
+  .hero__details-text {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+
+  }
+
+  .hero__details-btn {
+    width: 26px;
+    height: 26px;
+    margin-bottom: 24px;
+  }
+
+  .hero__details-box {
+    width: 200px;
+  }
+
+  .hero__img {
+    width: 304px;
+    right: 16px;
+  }
+
+  .hero__supinfo {
+    right: 16px;
+    top: 152px;
+  }
+
+  .hero__supinfo-first-box {
+    width: 72px;
+    height: 77px;
+    padding-top: 8px;
+    padding-right: 10px;
+    margin-bottom: 16px;
+    background-image: url(../images/hero/ellipse-desk.png);
+    background-size: 30px;
+
+  }
+
+  .hero__supinfo-second-box {
+    width: 92px;
+    height: 76px;
+    padding-top: 4px;
+    padding-right: 3px;
+    background-image: url(../images/hero/ellipse-desk.png);
+    background-size: 30px;
+  }
+
+  .hero__supinfo-amount {
+    font-size: 46px;
+    line-height: 1.13;
+  }
+
+  .hero__supinfo-type {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+
+    .hero__supinfo-first-box,
+    .hero__supinfo-second-box {
+      background-image: url(../images/hero/ellipse-desk@2x.png);
+    }
+  }
+}
