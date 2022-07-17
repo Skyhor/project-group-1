@@ -23,7 +23,6 @@
 
 .mobile-menu.is-open {
   transform: translate(0, 0);
-
 }
 
 .mobile-menu__container {
@@ -37,7 +36,7 @@
 
 .mobile-menu__close-btn {
   border: none;
-  fill: #FFFFFF;
+  fill: var(--main-accent-color);
   background-color: transparent;
   width: 14px;
   height: 14px;
@@ -47,8 +46,8 @@
   position: absolute;
   top: 20px;
   right: 20px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 0;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:focus,
   &:hover {
@@ -68,13 +67,12 @@
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
-  background-color: white;
+  background-color: var(--main-accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.31;
   color: var(--fourth-accent-color);
   fill: var(--fourth-accent-color);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-menu__nav {
@@ -97,7 +95,7 @@
   line-height: 1.28;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: var(--main-accent-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:focus,

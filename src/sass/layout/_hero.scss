@@ -13,7 +13,6 @@
   background-repeat: no-repeat, no-repeat;
   background-position: top 92px right 32px, top 83px left 36px;
   background-size: 171px, 345px;
-
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -30,7 +29,7 @@
   font-weight: 400;
   font-size: 26px;
   line-height: 1.15;
-  color: #fff;
+  color: var(--main-accent-color);
   text-transform: uppercase;
   text-align: left;
   margin-bottom: 20px;
@@ -54,7 +53,7 @@
   height: 24px;
   padding-left: 14px;
   padding-right: 14px;
-  background-color: #fff;
+  background-color: var(--main-accent-color);
   font-family: var(--secondary-font-family);
   font-size: 8px;
   line-height: 1.25;
@@ -65,7 +64,7 @@
   &:focus,
   &:hover {
     background-color: var(--fourth-accent-color);
-    color: #fff;
+    color: var(--main-accent-color);
   }
 }
 
@@ -90,11 +89,9 @@
   }
 }
 
-
 @media screen and (min-width: 768px) {
   .hero {
     height: 416px;
-
   }
 
   .hero__container {
@@ -143,9 +140,8 @@
     font-weight: 400;
     font-size: 8px;
     line-height: 1.5;
-    color: #FFFFFF;
+    color: var(--main-accent-color);
     margin-bottom: 7px;
-
   }
 
   .hero__details-btn {
@@ -155,7 +151,7 @@
     width: 18px;
     height: 18px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: var(--main-accent-color);
     fill: var(--fourth-accent-color);
     border-style: none;
     cursor: pointer;
@@ -164,8 +160,13 @@
     &:focus,
     &:hover {
       background-color: var(--fourth-accent-color);
-      fill: #fff;
+      fill: var(--main-accent-color);
     }
+  }
+
+  .hero__details-btn-icon {
+    width: 18px;
+    height: 18px;
   }
 
   .hero__details-box {
@@ -203,7 +204,6 @@
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 16px;
-
   }
 
   .hero__supinfo-second-box {
@@ -238,8 +238,7 @@
     font-size: 8px;
     line-height: 1.25;
     letter-spacing: 0.04em;
-    color: #fff;
-
+    color: var(--main-accent-color);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -253,12 +252,10 @@
   }
 }
 
-
 @media screen and (min-width: 1200px) {
 
   .hero {
     height: 664px;
-
   }
 
   .hero__container {
@@ -308,13 +305,17 @@
     font-size: 14px;
     line-height: 1.4;
     margin-bottom: 20px;
-
   }
 
   .hero__details-btn {
     width: 26px;
     height: 26px;
     margin-bottom: 24px;
+  }
+
+  .hero__details-btn-icon {
+    width: 26px;
+    height: 26px;
   }
 
   .hero__details-box {
@@ -339,7 +340,6 @@
     margin-bottom: 16px;
     background-image: url(../images/hero/ellipse-desk.png);
     background-size: 30px;
-
   }
 
   .hero__supinfo-second-box {

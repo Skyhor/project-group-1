@@ -11,5 +11,5 @@ function readMore() {
     dots.style.display = "none";
     btn.innerHTML = "Read less  >"; 
     more.style.display = "inline";
-  }
+    }
 }
