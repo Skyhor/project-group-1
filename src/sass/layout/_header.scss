@@ -78,6 +78,13 @@
     line-height: 1.31;
     color: var(--fourth-accent-color);
     fill: var(--fourth-accent-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover,
+    &:focus {
+      background-color: var(--sixth-accent-color);
+    }
   }
 }
 
