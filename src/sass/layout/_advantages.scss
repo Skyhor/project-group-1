@@ -67,6 +67,7 @@
 
     .advantages {
         display: flex;
+        justify-content: space-between;
     }
 
     .advantages__icon {
@@ -74,7 +75,6 @@
     }
 
     .advantages__item:not(:last-child) {
-        margin-right: 22px;
         margin-bottom: 0;
     }
 
@@ -88,9 +88,6 @@
         padding-bottom: 60px;
     }
 
-    .advantages {
-        justify-content: space-between;
-    }
 
     .advantages__title {
         font-size: 58px;
