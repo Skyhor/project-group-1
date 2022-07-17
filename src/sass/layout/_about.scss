@@ -33,7 +33,7 @@
   letter-spacing: 0.04em;
   color: #907e82;
 }
-.about__container {
+.about__section {
   background-size: 100%;
   background-position: left;
   background-repeat: no-repeat;
@@ -55,12 +55,12 @@
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .about__container {
+  .about__section {
     background-image: url('../images/about/background-milk-mob@2x.png');
   }
 
   @media screen and (min-width: 1200px) {
-    .about__container {
+    .about__section {
       background-image: url('../images/about/background-milk-desk@2x.png');
     }
   }
