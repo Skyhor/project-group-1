@@ -41,11 +41,11 @@
     font-family: var(--primary-font-family);
     font-weight: 400;
     font-size: 34px;
-    line-height: 39px;
+    line-height: 1.15;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: var(--fourth-accent-color);
-    margin-bottom: 40px;
+    
 
 }
 .footer__contacts{
@@ -80,13 +80,19 @@
 }
 .social__item:not(:last-child) {
     margin-right: 28px;
-    }
+}
 
+.wrapper{
+    margin-bottom: 40px;
+}
+.text-block{
+    margin-bottom: 40px;
+}
 @media screen and (max-width:767.98){
     .text-block{
-        max-width: 234px;
-    }
-    
+        // margin-bottom: 40px;
+        max-width: 234px;  
+    }  
 }
 @media screen and (min-width:768px){
     .footer__text{
@@ -121,10 +127,14 @@
     }
     .text-block{
         max-width: 340px;
+        margin-bottom: 0px;
     }
 }
 
 @media screen and (min-width:1200px){
+    .wrapper{
+        margin-bottom: 60px;
+    }
     .text-block{
         max-width: 100%;
     }
