@@ -1,12 +1,83 @@
+.customer{
+    display: flex;
+    justify-content: center;
+}
+
 .customer__img{
     margin-left: auto;
     margin-right: auto;
 }
 
 .customer__box{
+    margin-top: 32px;
     width: 280px;
-    height: 305px;
+    height: 308px;
+    padding-top: 43px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 17px;
+    background-color: #FAFAFA;
 }
+
+.customer__text{
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 255%;
+    letter-spacing: 0.04em;
+    color: #000000;
+    background-image: url(../images/customer-reviews/line-text.svg);
+    background-position: 0 100%;
+}
+
+.customer__text-box{
+    display: block;
+    width: 158px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .customer__box{
+        margin-top: 20px;
+        width: 620px;
+        height: 164px;
+        padding-top: 37px;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-bottom: 44px;
+    }
+
+    .customer__text{
+        font-size: 14px;
+        line-height: 216%;
+    }
+
+    .customer__text-box{
+        width: 514px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .customer__box {
+        margin-top: 16px;
+        width: 968px;
+        height: 138px;
+        padding-top: 32px;
+        padding-left: 73px;
+        padding-right: 73px;
+        padding-bottom: 31px;
+    }
+    
+    .customer__text {
+        font-size: 16px;
+        line-height: 186%;
+    }
+
+    .customer__text-box {
+        width: 750px;
+    }
+}
+    
 
 
 
