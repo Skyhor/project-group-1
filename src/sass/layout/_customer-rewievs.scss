@@ -1,14 +1,14 @@
-.customer{
+.customer {
     display: flex;
     justify-content: center;
 }
 
-.customer__img{
+.customer__img {
     margin-left: auto;
     margin-right: auto;
 }
 
-.customer__box{
+.customer__box {
     margin-top: 32px;
     width: 280px;
     height: 308px;
@@ -19,7 +19,7 @@
     background-color: #FAFAFA;
 }
 
-.customer__text{
+.customer__text {
     text-align: center;
     font-weight: 500;
     font-size: 12px;
@@ -30,14 +30,28 @@
     background-position: 0 100%;
 }
 
-.customer__text-box{
+.customer__text-box {
     display: block;
     width: 158px;
     margin: 0 auto;
+    position: relative;
+
+    &::before {
+        content: '';
+        display: block;
+        background: url(../images/customer-reviews/icon-text.png);
+        background-size: contain;
+        height: 40px;
+        width: 54px;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -16px;
+        top: -14px;
+    }
 }
 
 @media screen and (min-width: 768px) {
-    .customer__box{
+    .customer__box {
         margin-top: 20px;
         width: 620px;
         height: 164px;
@@ -47,17 +61,22 @@
         padding-bottom: 44px;
     }
 
-    .customer__text{
+    .customer__text {
         font-size: 14px;
         line-height: 216%;
     }
 
-    .customer__text-box{
+    .customer__text-box {
         width: 514px;
+
+        &::before {
+            bottom: 66px;
+            left: -52px;
+        }
     }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
     .customer__box {
         margin-top: 16px;
         width: 968px;
@@ -67,7 +86,7 @@
         padding-right: 73px;
         padding-bottom: 31px;
     }
-    
+
     .customer__text {
         font-size: 16px;
         line-height: 186%;
@@ -75,10 +94,10 @@
 
     .customer__text-box {
         width: 750px;
+
+        &::before {
+            bottom: 36px;
+            left: -42px;
+        }
     }
 }
-    
-
-
-
-
