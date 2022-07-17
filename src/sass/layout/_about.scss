@@ -97,4 +97,9 @@
   line-height: 1.31;
   color: var(--fourth-accent-color);
   fill: var(--fourth-accent-color);
+
+  &:hover,
+  &:focus {
+    background: var(--sixth-accent-color);
+  }
 }
