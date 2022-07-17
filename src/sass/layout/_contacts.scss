@@ -1,12 +1,10 @@
 .section__crawlers {
-  background-image: linear-gradient(
-    to bottom,
-    #ffffff 24%,
-    var(--secondary-accent-color) 24%,
-    var(--secondary-accent-color) 100%
-  );
+  background-image: linear-gradient(to bottom,
+      #ffffff 24%,
+      var(--secondary-accent-color) 24%,
+      var(--secondary-accent-color) 100%);
   padding-top: 80px;
-  padding-bottom: 40px;
+  padding-bottom: 120px;
 }
 
 .container__crawlers {
@@ -216,12 +214,10 @@
 
 @media screen and (min-width: 768px) {
   .section__crawlers {
-    background-image: linear-gradient(
-      to bottom,
-      var(--main-accent-color) 49%,
-      var(--secondary-accent-color) 49%,
-      var(--secondary-accent-color) 100%
-    );
+    background-image: linear-gradient(to bottom,
+        var(--main-accent-color) 49%,
+        var(--secondary-accent-color) 49%,
+        var(--secondary-accent-color) 100%);
   }
 
   .container__crawlers {
@@ -284,12 +280,10 @@
 
 @media screen and (min-width: 1200px) {
   .section__crawlers {
-    background-image: linear-gradient(
-      to bottom,
-      var(--main-accent-color) 23%,
-      var(--secondary-accent-color) 23%,
-      var(--secondary-accent-color) 100%
-    );
+    background-image: linear-gradient(to bottom,
+        var(--main-accent-color) 23%,
+        var(--secondary-accent-color) 23%,
+        var(--secondary-accent-color) 100%);
   }
 
   .container__crawlers {
