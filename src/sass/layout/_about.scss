@@ -6,7 +6,7 @@
   background-color: var(--secondary-accent-color);
 }
 .text-more {
-  font-family: 'DM Sans';
+  font-family: var(--secondary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.93;
@@ -14,14 +14,14 @@
 }
 
 .about__text {
-  font-family: 'DM Sans';
+  font-family: var(--secondary-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.75;
   color: #000000;
 }
 .about__text-grey {
-  font-family: 'DM Sans';
+  font-family: var(--secondary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.93;
