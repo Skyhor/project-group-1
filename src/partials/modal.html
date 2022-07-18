@@ -1,0 +1,24 @@
+<div class="modal section modal-hidden" data-modal data-modal-mobile>
+  <button type="button" class="modal__close-btn" data-modal-close>
+    <svg class="modal__close-btn-icon" width="15" height="15">
+        <use href="./images/icons-svg/symbol-defs.svg#close"></use>
+    </svg>
+</button>
+  <p class="modal__title">Online<br><span class="modal__title-accent">Ice Cream</span><br> ordering</p>
+  <form class="modal__form" action="#">
+    <label class="modal__field">
+      <span class="modal__key">Name</span>
+      <input class="modal__input" type="text" required name="user_name" pattern="[a-zA-Z]*" placeholder="Alisa">
+    </label>
+    <label class="modal__field">
+      <span class="modal__key">Number</span>
+      <input class="modal__input" type="tel" required name="user_phone_number"
+        pattern="[0-9]*" placeholder="+61(0) 383 766 284">
+    </label>
+    <label class="modal__field">
+      <span class="modal__key">Email</span>
+      <input class="modal__input" type="email" required name="user_email" placeholder="alisa@gmail.com">
+    </label>
+      <button class="modal__button" type="submit">Send</button>
+  </form>
+</div>
