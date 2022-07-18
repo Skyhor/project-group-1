@@ -4,7 +4,7 @@
       var(--secondary-accent-color) 24%,
       var(--secondary-accent-color) 100%);
   padding-top: 80px;
-  padding-bottom: 120px;
+  padding-bottom: 40px;
 }
 
 .container__crawlers {
@@ -160,6 +160,10 @@
   .container__crawlers {
     width: 480px;
   }
+
+  .section__crawlers {
+    padding-bottom: 40px;
+  }
 }
 
 //0px-767px
@@ -167,6 +171,7 @@
 @media screen and (max-width: 767px) {
   .section__crawlers {
     padding-top: 60px;
+
   }
 
   .container__crawlers {
@@ -218,6 +223,7 @@
         var(--main-accent-color) 49%,
         var(--secondary-accent-color) 49%,
         var(--secondary-accent-color) 100%);
+
   }
 
   .container__crawlers {
@@ -284,6 +290,7 @@
         var(--main-accent-color) 23%,
         var(--secondary-accent-color) 23%,
         var(--secondary-accent-color) 100%);
+    padding-bottom: 120px;
   }
 
   .container__crawlers {
