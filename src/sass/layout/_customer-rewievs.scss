@@ -150,6 +150,7 @@
   .reviews__box {
     background-color: var(--reviews-bg-color);
   }
+  
   @media screen and (max-width: 320px) {
     .reviews__box {
       width: 280px;
@@ -197,7 +198,7 @@
     width: 54px;
     height: 40px;
     display: inline-block;
-    // background-image: url(../images/Q.svg);
+    background-image: url(../images/q.svg);
     position: absolute;
     top: -22px;
     left: -51px;
