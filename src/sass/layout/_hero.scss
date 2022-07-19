@@ -11,7 +11,7 @@
   margin-right: auto;
   background-image: url(../images/hero/background/icecream-mob.png), url(../images/hero/background/bellipse-mob.png);
   background-repeat: no-repeat, no-repeat;
-  background-position: top 92px right 32px, top 83px left 36px;
+  background-position: top 92px right 32px, top 83px right -70px;
   background-size: 171px, 345px;
 }
 
@@ -53,24 +53,39 @@
   height: 24px;
   padding-left: 14px;
   padding-right: 14px;
-  background-color: var(--main-accent-color);
   font-family: var(--secondary-font-family);
   font-size: 8px;
   line-height: 1.25;
-  color: var(--fourth-accent-color);
   border-radius: 20px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-  &:focus,
-  &:hover {
-    background-color: var(--fourth-accent-color);
-    color: var(--main-accent-color);
+.hero__link-bright {
+  background-color: var(--fourth-accent-color);
+  color: var(--main-accent-color);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.hero__link-white {
+  background-color: var(--main-accent-color);
+  color: var(--fourth-accent-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--btn-hover-focus);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
 
 @media screen and (min-width: 480px) {
   .hero__container {
     width: 480px;
+    background-position: top 92px right 60px, top 83px right 0px;
   }
 }
 
@@ -155,12 +170,12 @@
     fill: var(--fourth-accent-color);
     border-style: none;
     cursor: pointer;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:focus,
     &:hover {
-      background-color: var(--fourth-accent-color);
-      fill: var(--main-accent-color);
+      background-color: var(--btn-hover-focus);
+      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     }
   }
 
@@ -171,6 +186,7 @@
 
   .hero__details-box {
     width: 114px;
+    position: relative;
   }
 
   .hero__img {
